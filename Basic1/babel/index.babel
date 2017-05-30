@@ -1,0 +1,13 @@
+class MyControl extends React.Component
+{
+  render(){
+    return <b>Hai</b>
+  }
+  
+}
+// ========================================
+
+ReactDOM.render(
+  <MyControl />,
+  document.getElementById('root')
+);
